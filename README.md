@@ -17,9 +17,9 @@
 - You must provide your own copy of the game to play.
 - This project is free, and I don't make money with.
   
-  ## CREDITS :
-  Port by Enderscream ( It's me )
-(sorry for my English)
+## CREDITS :
+- Port by Enderscream ( It's me )
+- (sorry for my English)
 
 Download him here 
 ( v.1 ) https://github.com/enderscreamgaming-spec/REDRIVER-2-Port-3DS/releases/tag/Portage
