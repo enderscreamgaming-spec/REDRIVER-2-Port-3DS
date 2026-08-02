@@ -6,6 +6,11 @@
 - This port requires a copy of **Driver 2 (PS1)**. Copy the game files to:
 - *SD/3ds/redriver2/Driver2*
 - If the folder does not exist, create it manually.
+ 
+ ## V.1 features :
+
+- Full game "playable"
+- Runs on Old 3DS
 
 ## WARNING :
 
