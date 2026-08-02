@@ -14,7 +14,7 @@
 - It has been tested in an **Old 3DS**, performance may be better on **New 3DS**
 - It is recommended to launch the game with the **Homebrew Launcher started from the Rosalina Menu**.
 
-## How to install and launch REDRIVER 2 3DS
+# How to install and launch REDRIVER 2 3DS
 
 ## Requirements
 
@@ -26,21 +26,21 @@
 
 1. Download the latest release from GitHub:
 
-*https://github.com/enderscreamgaming-spec/REDRIVER-2-Port-3DS/releases*
+https://github.com/enderscreamgaming-spec/REDRIVER-2-Port-3DS/releases
 
 2. Extract the downloaded files.
 
-3. Copy the redriver2 folder to:
+3. Copy the `redriver2` folder to:
 
-
-*SD:/3ds/*
-
+```
+SD:/3ds/
+```
 
 4. Copy your Driver 2 game files into:
 
-
-*SD:/3ds/redriver2/Driver2*
-
+```
+SD:/3ds/redriver2/Driver2
+```
 
 If the folder does not exist, create it manually.
 
