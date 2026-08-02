@@ -70,5 +70,6 @@ Enjoy playing REDRIVER 2 on Nintendo 3DS!
 ## CREDITS :
 - Port by Enderscream ( It's me )
 - (sorry for my English)
+- If you use or modify this project, please credit me by writing Enderscream
 
 ( For those who want the source code, I'm going to rearrange it before releasing it ).
