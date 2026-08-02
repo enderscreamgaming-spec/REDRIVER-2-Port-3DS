@@ -30,19 +30,21 @@ https://github.com/enderscreamgaming-spec/REDRIVER-2-Port-3DS/releases
 
 2. Extract the downloaded files.
 
-3. Create the redriver2 folder to:
+3. Copy the redriver2_3ds.3dsx to:
 
 ```
 SD:/3ds/
 ```
 
-4. Copy your Driver 2 game files into:
+4. Create the files redriver2 ( in 3ds ) and Driver2 ( in redriver2 )
 
 ```
 SD:/3ds/redriver2/Driver2
 ```
+5. Copy your Driver 2 game files into Driver2
 
-If the folder does not exist, create it manually.
+
+**If the folder does not exist, create it manually.**
 
 ## Launching the game
 
