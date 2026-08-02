@@ -26,3 +26,5 @@
 
 Download him here 
 ( v.1 ) https://github.com/enderscreamgaming-spec/REDRIVER-2-Port-3DS/releases/tag/Portage
+
+( For those who want the source code, I'm going to rearrange it before releasing it ).
