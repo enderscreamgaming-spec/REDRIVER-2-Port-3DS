@@ -4,7 +4,7 @@
 A Nintendo 3DS Port of REDRIVER 2
 - This Port is made with REDRIVER 2, so you must have a copy of Driver 2 PS1, and  copy the files in :
 - SD/3ds/redriver2/Driver2
-- If you haven't this file, create them at SD/3ds
+- If the folder does not exist, create it manually.
 
 WARNING :
 - This is an alpha port, so some optimisations are still to be done.
