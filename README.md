@@ -16,7 +16,7 @@
 
 ## LEGAL NOTICE : 
 
--Im not affiliated with Reflection or Ubisoft, This project does not include any copyrighted game files. 
+- Im not affiliated with Reflection or Ubisoft, This project does not include any copyrighted game files. 
 - You must provide your own copy of the game to play.
 - This project is free, and I don't make money with.
   
