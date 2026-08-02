@@ -30,7 +30,7 @@ https://github.com/enderscreamgaming-spec/REDRIVER-2-Port-3DS/releases
 
 2. Extract the downloaded files.
 
-3. Copy the `redriver2` folder to:
+3. Create the redriver2 folder to:
 
 ```
 SD:/3ds/
