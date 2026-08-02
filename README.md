@@ -20,3 +20,5 @@ LEGAL NOTICE :
   CREDITS :
   Port by Enderscream ( It's me )
 (sorry for my English)
+
+Download him here https://github.com/enderscreamgaming-spec/REDRIVER-2-Port-3DS/releases/tag/Portage
