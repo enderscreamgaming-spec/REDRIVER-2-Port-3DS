@@ -6,3 +6,6 @@ A 3ds port for REDRIVER 2
 
 BUGS and FIXES
 - This is an alpha port, so some optimisations are still to be done, this game turn at 4-5 fps for the moment
+- It tested in an old 3ds, so, for a New 3DS, it may be that there are more FPS
+
+  Port by Enderscream
