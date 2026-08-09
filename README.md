@@ -7,9 +7,9 @@
 - *SD/3ds/redriver2/Driver2*
 - If the folder does not exist, create it manually.
  
- ## V.1 features :
+ ## V.1.1 features :
 
-- Full game "playable"
+- Full game playable at about 10 fps
 - Runs on Old 3DS
 
 ## WARNING :
