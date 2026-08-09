@@ -1,0 +1,6 @@
+#ifndef REDRIVER2_3DS_SDL_MESSAGEBOX_SHIM_H
+#define REDRIVER2_3DS_SDL_MESSAGEBOX_SHIM_H
+
+#include "SDL.h"
+
+#endif

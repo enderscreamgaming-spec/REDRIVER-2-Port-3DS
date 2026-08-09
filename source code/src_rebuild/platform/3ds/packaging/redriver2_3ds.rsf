@@ -1,0 +1,19 @@
+BasicInfo:
+ Title : "REDRIVER2 3DS"
+ CompanyCode : "00"
+ ProductCode : "CTR-P-RD2P"
+ ContentType : Application
+ Logo : Nintendo
+TitleInfo:
+ UniqueId : 0xD222
+ Category : Application
+Option:
+ UseOnSD : true
+ EnableCompress : true
+ FreeProductCode : true
+ EnableCrypt : false
+ MediaFootPadding : false
+SystemControlInfo:
+ SaveDataSize: 0KB
+ RemasterVersion: 0
+ StackSize: 0x40000

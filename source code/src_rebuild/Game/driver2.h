@@ -1,0 +1,104 @@
+#ifndef DRIVER2_H
+#define DRIVER2_H
+
+#include <types.h>
+#include <libcd.h>
+#include <libgte.h>
+#include <libgpu.h>
+#include <libspu.h>
+#include <libmcrd.h>
+#include <libmath.h>
+#include <libetc.h>
+#include <libapi.h>
+
+#ifdef PSX
+#include <inline_n.h>		// for Nugget PsyQ which doesn't use DMPSX
+#else
+#include <inline_c.h>
+#endif
+
+#include <gtemac.h>
+
+#include <strings.h>
+#include <rand.h>
+#include <stdio.h>
+#include <limits.h>
+
+#include "platform.h"
+
+#ifdef PSX
+#ifndef USE_PC_FILESYSTEM
+#define USE_PC_FILESYSTEM			0
+#endif
+#ifndef USE_CRT_MALLOC
+#define USE_CRT_MALLOC				0
+#endif
+#else
+#ifndef USE_PC_FILESYSTEM
+#define USE_PC_FILESYSTEM			1   // PC filesystem is prioritized over CD
+#endif
+#ifndef USE_CRT_MALLOC
+#define USE_CRT_MALLOC				0
+#endif
+#endif
+
+#ifndef USE_CD_FILESYSTEM
+#ifdef __3DS__
+#define USE_CD_FILESYSTEM			0	// 3DS uses unpacked files from sdmc
+#else
+#define USE_CD_FILESYSTEM			1	// use always
+#endif
+#endif
+#define ENABLE_MISSION_FIXES		1
+#define ENABLE_GAME_FIXES			1
+#define ENABLE_GAME_ENCHANCEMENTS	1
+#define ENABLE_BONUS_CONTENT		1
+
+#ifdef PSX
+// TODO: Include PSX STUFF
+#define trap(code)
+
+#define printMsg					printf
+#define printInfo					printf
+#define printWarning				printf
+#define printError					printf
+
+#define LOAD_OVERLAY(filename, addr) Loadfile(filename, (char*)addr)
+
+#else
+
+#include <stdbool.h>
+#include <stdio.h>
+
+#define printMsg				PsyX_Log
+#define printInfo				PsyX_Log_Info
+#define printWarning			PsyX_Log_Warning
+#define printError				PsyX_Log_Error
+
+#ifdef __EMSCRIPTEN__
+#define trap(ode) {printError("EXCEPTION code: %x\n", ode);}
+#elif defined(__3DS__)
+#define trap(ode) {printError("EXCEPTION code: %x\n", ode); __builtin_trap();}
+#elif _MSC_VER >= 1400
+#define trap(ode) {printError("EXCEPTION code: %x\n", ode); __debugbreak();}
+#elif defined(__GNUC__)
+#define trap(ode) {__asm__("int3");}
+#else
+#define trap(ode) {_asm int 0x03}
+#endif
+
+#define LOAD_OVERLAY(filename, addr) 1
+
+#endif // PSX
+
+#define D_CHECK_ERROR(expr, message) if(expr){ printError("%s - %s\n", FUNCNAME, message); while (FrameCnt != 0x78654321) trap(0x400); }
+
+#include "reversing.h"
+
+#include "version.h"
+#include "dr2math.h"
+#include "dr2limits.h"
+#include "dr2types.h"
+#include "dr2locale.h"
+
+#endif // DRIVER2_H
