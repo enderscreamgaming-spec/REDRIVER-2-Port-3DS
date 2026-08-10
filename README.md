@@ -79,4 +79,6 @@ Thanks for opening an Issue by specifying your 3DS model, the port version, and 
 ----
 **Enderscream Port Studio™**
 
+( Yeah, I'm all alone in the studio lol )
+
 
