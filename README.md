@@ -74,9 +74,8 @@ Enjoy playing REDRIVER 2 on Nintendo 3DS!
 
 Found a bug?  
 Thanks for opening an Issue by specifying your 3DS model, the port version, and what happened.
+
 ----
-
-
 **Enderscream Port Studio™**
 
 
