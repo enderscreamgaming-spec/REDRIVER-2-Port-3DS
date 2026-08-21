@@ -15,7 +15,7 @@
 ## WARNING :
 
 - This is an alpha port, so some optimisations are still to be done.
-- Currently, the game run at around **4-5 FPS** for the moment
+- Currently, the game run at around **10-15 FPS** for the moment
 - It has been tested in an **Old 3DS**, performance may be better on **New 3DS**
 - It is recommended to launch the game with the **Homebrew Launcher started from the Rosalina Menu**.
 
